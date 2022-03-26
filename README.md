@@ -49,9 +49,11 @@ We should be able to test it by running the command:
 sh run.sh alphabeta random <depth> 
   
 Part 4: Extra Credit
-Implement another agent, in a file called “<drexel_userid>.py”, where <drexel_userid> is  your lowercase Drexel user ID (e.g., awm32.py). Name the agent class the same thing (e.g.,  class awm32:). This agent, instead of receiving the depth at which to perform a search,  receives a certain amount of time (in milliseconds) that it can use to search. Make sure  that your bot returns a solution within this time (you can assume that at least you will  have 100 milliseconds). 
+Implement another agent, this agent, instead of receiving the depth at which to perform a search,  receives a certain amount of time (in milliseconds) that it can use to search. Make sure  that your bot returns a solution within this time (you can assume that at least you will  have 100 milliseconds). 
 We should be able to test it by running the command: 
 sh run.sh extra random <time> 
 Hint: a good way to do this is by making your agent first search at depth 1. Then, if there is  still time, search at depth 2. If there is still time, go for depth 3, etc. Also, make sure that  you have a code that cancels the search if enough time has passed. 
 We might collect all the agents that comply with this and play a tournament. Results will  be announced in class in the case. 
+
+
 
