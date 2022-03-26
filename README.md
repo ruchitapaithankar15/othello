@@ -1,6 +1,9 @@
 # othello
 Othello [https://youtu.be/xDnYEOsjZnM] is a 2-player adversarial game in which a  player places pieces into a grid and tries to align them in order to win the game: 
 
+<img width="224" alt="game" src="https://user-images.githubusercontent.com/92649107/160254402-6313478e-b087-43fd-b9ab-1698fd862ffb.png">
+
+
 The object is to have the majority of your colored disks face up on the board at the end of  the game. Every disk is white on one side and black on the other. 
 Setup: Initially, we place four disks, two with white sides and two with black sides up in  the center of the board. Each player has 30 disks. One player plays as white and the other  as black. The player playing black goes first, and then turns alternate. 
 Play: On your turn, you must place one disk on any empty space on the board and outflank  your opponent. Outflank means to have your disks on either side of a continuous straight  line of your opponent's disks. This line can be any number of disks long and can be  horizontal, vertical, or diagonal. When you place a disk so that you have outflanked your  opponent's disks, you then flip the outflanked disks over to your color. You are allowed to  outflank multiple lines in a single turn. 
