@@ -5,10 +5,18 @@ Othello [https://youtu.be/xDnYEOsjZnM] is a 2-player adversarial game in which a
 
 
 The object is to have the majority of your colored disks face up on the board at the end of  the game. Every disk is white on one side and black on the other. 
+
+
 Setup: Initially, we place four disks, two with white sides and two with black sides up in  the center of the board. Each player has 30 disks. One player plays as white and the other  as black. The player playing black goes first, and then turns alternate. 
 Play: On your turn, you must place one disk on any empty space on the board and outflank  your opponent. Outflank means to have your disks on either side of a continuous straight  line of your opponent's disks. This line can be any number of disks long and can be  horizontal, vertical, or diagonal. When you place a disk so that you have outflanked your  opponent's disks, you then flip the outflanked disks over to your color. You are allowed to  outflank multiple lines in a single turn. 
+
+
 If you cannot outflank your opponent on your turn, you are not allowed to play, and you  must skip your turn. If you can play, then you must play. Disks may only be outflanked due  to a move and must be in a direct line of the placed disk. An outflank may not skip over  your own colored disk to outflank more disks. Only the disks within the immediate  outflank are captured. 
+
+
 All outflanked disks must be flipped. You may not choose only to flip some of them. If you  flip over the wrong disk and your opponent hasn't moved yet, you may fix the error. If  your opponent has already moved, then you may not fix the error. Once a disk is placed on  a square, it may never be removed, nor maybe it be moved to another square. If you run  out of disks to place, and you still have a legal move, then your opponent must give you  some of theirs to use. When it is no longer possible for either player to move, the game is  over. Disks are counted, and the player with the majority of their color showing is the  winner. 
+
+
 You can also play multiple rounds and track points. The round winner receives points  equal to the difference between the number of their opponent's disks, subtracted from the  number of their disks. Once players reach a predetermined point total, the game ends, and  the player with the most points is the winner. 
 
 
